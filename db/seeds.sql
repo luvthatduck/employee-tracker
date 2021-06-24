@@ -1,34 +1,34 @@
-INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-  (id, 'Ronald', 'Jones',2, manager_id),
-  (id,'Ginny', 'Max', 8, manager_id),
-  (id,'Bonnie', 'Gaveston', 8, manager_id),
-  (id,'Charles', 'Parkerson', 7, manager_id),
-  (id,'Frank', 'Mansfield', 1, manager_id),
-  (id,'Dora', 'Explorer', 5, manager_id),
-  (id,'Edward', 'ScizzHands', 3, manager_id),
-  (id,'Sunny', 'Summers', 2, manager_id),
-  (id,'Octavia', 'Oceania', 4, manager_id),
-  (id,'Missy', 'Misdimenor', 6, manager_id),
-  (id,'Tom', 'Hanksmen', 4, manager_id),
-  (id,'Mark', 'Zumm', 8, manager_id);
+  ( 'Ronald', 'Jones',2, 1),
+  ('Ginny', 'Max', 8, 2),
+  ('Bonnie', 'Gaveston', 8, 1),
+  ('Charles', 'Parkerson', 7, 2),
+  ('Frank', 'Mansfield', 1, 1),
+  ('Dora', 'Explorer', 5, 2),
+  ('Edward', 'ScizzHands', 3, 1),
+  ('Sunny', 'Summers', 2, 2),
+  ('Octavia', 'Oceania', 4, 1),
+  ('Missy', 'Misdimenor', 6, 2),
+  ('Tom', 'Hanksmen', 4, 1),
+  ('Mark', 'Zumm', 8, 2);
 
-INSERT INTO department (id, department_name)
+INSERT INTO department (department_name)
 VALUES
-  (id, 'Accounting'),
-  (id, 'Public Relations'),
-  (id, 'Engineering'),
-  (id, 'Development'),
-  (id, 'Sales');
+  ('Accounting'),
+  ('Public Relations'),
+  ('Engineering'),
+  ('Development'),
+  ('Sales');
 
-INSERT INTO role_employee (id, title, salary, department_id )
+INSERT INTO role_employee (title, salary, department_id )
 VALUES
-  (id, 'CPA', 100000, 1),
-  (id, 'Accounting Clerk', 45000, 1),
-  (id, 'Lead Engineer', 120000, 2),
-  (id, 'Engineer', 95000, 2),
-  (id, 'Public Relations Manager', 85000, 3),
-  (id, 'HR Manager', 100000, 4),
-  (id, 'Lead Sales', 125000, 5),
-  (id, 'Sales', 80000, 5);
+  ( 'CPA', 100000, 1),
+  ( 'Accounting Clerk', 45000, 1),
+  ( 'Lead Engineer', 120000, 2),
+  ( 'Engineer', 95000, 2),
+  ( 'Public Relations Manager', 85000, 3),
+  ( 'HR Manager', 100000, 4),
+  ( 'Lead Sales', 125000, 5),
+  ( 'Sales', 80000, 5);
  
